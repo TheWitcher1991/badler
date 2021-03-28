@@ -31,15 +31,13 @@ class ChatScreenState extends State<ChatScreen> {
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      FlatButton.icon(
-                        icon: Icon(Icons.arrow_back_ios, color: Colors.grey[900]),
-                        label: Text('',
-                          style: TextStyle(color: Colors.grey[900], fontSize: 16.0)),
+                      IconButton(
                         onPressed: () {
-                        Navigator.pop(context);
+                          Navigator.pop(context);
                         },
+                        icon: Icon(Icons.arrow_back, size: 22, color: Colors.grey[900]),
                       ),
-                      SizedBox(width: 12),
+                      SizedBox(width: 16),
                       Row(
                         children: <Widget>[
                           Container(
@@ -65,7 +63,7 @@ class ChatScreenState extends State<ChatScreen> {
                       )
                     ],
                   ),
-                  Icon(Icons.info_outline, size: 26, color: Colors.grey[900])
+                  Icon(Icons.info_outline, size: 23, color: Colors.grey[900])
                 ],
               ),
             ),

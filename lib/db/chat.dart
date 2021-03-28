@@ -1,6 +1,6 @@
 var chat = {
-  'Joseph': [
-    "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1188&q=80",
+  'Vong': [
+    "https://images.unsplash.com/photo-1594616838951-c155f8d978a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     'Hey wassup',
     'ВТ, 17:02'
   ]

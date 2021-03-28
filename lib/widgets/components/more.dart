@@ -239,3 +239,34 @@ Widget baseTop(String buttonText, ctx) {
     )
   ]);
 }
+
+Widget profileList({title, text}) {
+  return Container(
+    width: double.infinity,
+    padding: EdgeInsets.only(bottom: 6),
+    decoration: BoxDecoration(
+      border: Border(bottom: BorderSide(width: 1, color: Colors.grey[300])),
+    ),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        Text(
+          title,
+          style: TextStyle(
+            color: Colors.grey[900],
+            fontSize: 18.0,
+          ),
+        ),
+        SizedBox(height: 3),
+        Text(
+          text,
+          style: TextStyle(
+            color: Colors.grey[500],
+            fontSize: 15.0,
+            fontWeight: FontWeight.w300,
+          ),
+        ),
+      ],
+    ),
+  );
+}
